@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0.5rem 0 0;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0.25rem 0 0;
+}
+
+.empty-state {
+  padding: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+}
+
+.status-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s;
+}
+
+.status-toggle:hover {
+  opacity: 0.8;
+}
+
+.btn-delete {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
